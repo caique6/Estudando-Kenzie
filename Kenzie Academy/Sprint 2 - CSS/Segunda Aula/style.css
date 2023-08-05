@@ -1,0 +1,22 @@
+h1 {
+    font-size: 50px;
+    color: brown;
+    border-bottom: 3px solid red;
+    font-family: Georgia, 'Times New Roman', Times, serif  ;
+}
+
+ol {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nadamal {
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.mainstreet {
+    color: rgb(175, 175, 74);
+    
+}

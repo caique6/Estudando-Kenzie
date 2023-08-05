@@ -1,0 +1,64 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inscrição da Kenzie</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <form>
+            <div class="formulario">
+                <label for="name">Nome</label> <br>
+                <input class="inputs" type="text" id="name" required="true" placeholder="Digite seu nome aqui...">
+                <div></div>
+                <p></p>
+
+                <label for="email">Email</label> <br>
+                <input class="inputs" type="email" id="email" required="true" placeholder="Digite seu email aqui...">
+                <div></div>
+                <p></p>
+                
+                <label class="inputs" for="motivacao">O que te motivou participar do evento?</label> 
+                <div></div>
+
+                <textarea class="inputs" cols="29" rows="7" placeholder="Descreva aqui..."></textarea>
+                <div></div>
+                <p></p>
+
+                <label for="modulo">Selecione seu módulo</label> <br>
+                    <select required="true" name="" id="">
+                        <option value="modulo">Selecionar módulo</option>
+                        <option value="modulo">Manhã</option>
+                        <option value="modulo">Tarde</option>
+                        <option value="modulo">Noite</option>
+                    </select>
+                <div></div>
+                <p></p>
+
+                <label  for="senha">Cadastre uma senha</label> <br>
+                <input class="inputs" type="password" id="senha" required="true" placeholder="Cadastre uma senha...">
+                <div></div>
+                <p></p>
+
+                <label for="confirmarsenha">Confirme a senha</label> <br>
+                <input class="inputs" type="password" required="true" placeholder="Confirme a senha">
+                <div></div>
+                <p></p>
+
+                <label for="notificacoes">Deseja receber novidades em seu e-mail?</label>
+                <div></div>
+                <p></p>
+
+                <label for="not">Sim</label>
+                <input class="inputs" type="radio" name="notificacoes" id="not">
+                <label for="not">Não</label>
+                <input class="inputs" type="radio" name="notificacoes" id="not">
+                <div></div>
+                <p></p>
+                
+                <button type="submit">Cadastrar</button>
+            </div>    
+        </form>
+    </body>
+    </html>
